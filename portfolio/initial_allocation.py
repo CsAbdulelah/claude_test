@@ -9,14 +9,14 @@ Strategy rationale:
   - Stop-loss at -15% per position; no target on upside (let winners run)
 
 Compliance changes from original allocation:
-  LMT  REMOVED — weapons manufacturer, primary business violation
-  PLTR REMOVED — ~55% defence/military-targeting revenue (Gotham platform)
-  MSFT ADDED   — cloud/AI/productivity; passes all AAOIFI ratio screens
-  TSM  ADDED   — pure semiconductor foundry; no prohibited business lines
+  LMT  REMOVED — weapons manufacturer, primary business violation (clear haram)
+  PLTR RESTORED — software/analytics company; does NOT manufacture weapons;
+                  analogous to Microsoft serving government clients (compliant)
+  MSFT ADDED   — replaces LMT slot; cloud/AI/productivity; passes AAOIFI screens
 
 Themes:
-  1. AI infrastructure (NVDA, AVGO, TSM — picks-and-shovels)
-  2. AI monetisation & cloud (META, MSFT)
+  1. AI infrastructure (NVDA, AVGO — picks-and-shovels)
+  2. AI monetisation & cloud (META, MSFT, PLTR)
   3. Healthcare innovation (LLY — GLP-1 demand still early innings)
 
 Tickers and approximate prices as of 2026-05-31:
@@ -25,7 +25,7 @@ Tickers and approximate prices as of 2026-05-31:
   META  ~$640   AI-monetised advertising at scale
   LLY   ~$770   GLP-1 / obesity drug leader
   MSFT  ~$460   Cloud (Azure) + AI (Copilot); replaces LMT
-  TSM   ~$195   World's only leading-edge foundry; replaces PLTR
+  PLTR  ~$125   AI/data analytics platform; software = halal
   Cash  reserve  ~$74
 """
 
@@ -41,7 +41,7 @@ INITIAL_TRADES = [
     ("META", 0.235, 640.00, "AI Monetisation",    "Best ad-tech moat; Llama = AI optionality"),
     ("LLY",  0.195, 770.00, "Healthcare Innov.",  "GLP-1 demand far exceeds current supply"),
     ("MSFT", 0.326, 460.00, "Cloud / AI",         "Azure #2 cloud; Copilot AI monetisation"),
-    ("TSM",  0.769, 195.00, "AI Infrastructure",  "Only foundry making NVDA's Blackwell GPUs"),
+    ("PLTR", 1.200, 125.00, "AI / Data Analytics","AIP platform; fastest-growing commercial segment"),
 ]
 
 

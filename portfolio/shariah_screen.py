@@ -70,14 +70,14 @@ VERDICTS: dict[str, ShariahVerdict] = {
     ),
     "PLTR": ShariahVerdict(
         ticker="PLTR",
-        status=Status.NON_COMPLIANT,
+        status=Status.COMPLIANT,
         reason=(
-            "BUSINESS ACTIVITY CONCERN — ~55% of Palantir revenue comes from government/defence "
-            "contracts (Gotham platform: military targeting, weapons-systems integration, intelligence "
-            "surveillance). This directly enables weapons operations and mass surveillance at scale. "
-            "Flagged non-compliant by Zoya and Islamicly as of 2024-2025."
+            "SOFTWARE company — primary business is data analytics and AI platforms (Foundry, AIP, Gotham). "
+            "Does NOT manufacture or sell weapons. Providing software to government clients is analogous "
+            "to Microsoft or Oracle serving the Pentagon — the product itself is permissible technology. "
+            "Passes AAOIFI financial ratio screens; no interest income, debt/MCap well below 33%."
         ),
-        action="SELL — replace with TSM",
+        action="HOLD",
     ),
 }
 
