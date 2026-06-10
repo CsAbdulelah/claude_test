@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>موجز | متجر مزيد</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header__inner">
+    <div class="logo">
+      <span class="logo__ar">موجز</span>
+      <span class="logo__en">Mojaz</span>
+    </div>
+
+    <nav class="nav">
+      <a href="#home">الصفحة الرئيسية</a>
+      <a href="#about">عن موجز <span class="caret">▾</span></a>
+      <a href="#services">الخدمات <span class="caret">▾</span></a>
+      <a href="#pricing">الأسعار</a>
+      <a href="#business">موجز للأعمال <span class="caret">▾</span></a>
+      <a href="#contact">تواصل معنا <span class="caret">▾</span></a>
+    </nav>
+
+    <div class="header__actions">
+      <span class="lang">English</span>
+      <button class="btn btn--outline">
+        <span class="icon">👤</span> تسجيل الدخول
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- Hero -->
+  <section class="hero container" id="home">
+    <div class="hero__visual">
+      <div class="hero__ring"></div>
+      <div class="phone">
+        <div class="phone__notch"></div>
+        <div class="phone__screen">
+          <div class="phone__photo"></div>
+          <div class="phone__title">Get reports about your vehicle?</div>
+          <div class="phone__input">
+            <span>VIN or sequence Number</span>
+            <span class="cam">📷</span>
+          </div>
+          <button class="phone__cta">Get report</button>
+          <div class="phone__row">
+            <button class="phone__chip">Try a sample VIN</button>
+            <span class="phone__hint">Where to find the VIN?</span>
+          </div>
+        </div>
+      </div>
+      <div class="floating floating--badge1"><span class="dot dot--yellow">2</span> حوادث</div>
+      <div class="floating floating--badge2"><span class="dot dot--green">4</span> عدد ملاك المركبة</div>
+      <div class="floating floating--badge3"><span class="dot dot--gray">⏱</span> 23,000 كم</div>
+    </div>
+
+    <div class="hero__content">
+      <h1>قرار الشراء الصحيح، يبدأ بموجز</h1>
+      <p class="hero__subtitle">اطلب تقرير موجز واحصل على أهم البيانات التاريخية للمركبة</p>
+
+      <div class="report-card">
+        <div class="report-card__tabs">
+          <span class="tab tab--active">تقرير موجز <span class="icon">📄</span></span>
+        </div>
+        <label class="report-card__label">ادخل الرقم التسلسلي أو رقم الهيكل <span class="help">?</span></label>
+        <input class="report-card__input" type="text" placeholder="مثال 0487635336 أو JE4LR33M21J704303">
+        <div class="report-card__actions">
+          <button class="btn btn--primary">اطلب التقرير</button>
+          <button class="btn btn--outline">عرض عينة تجريبية</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mazeed Store -->
+  <section class="mazeed container" id="mazeed">
+    <div class="mazeed__head">
+      <div>
+        <h2>متجر مزيد <span class="badge-new">جديد</span></h2>
+        <p>حوّل نقاط مزيد إلى تقارير ومزايا حصرية من موجز</p>
+      </div>
+
+      <div class="mazeed__points">
+        <div class="mazeed__points-icon">💎</div>
+        <div>
+          <div class="mazeed__points-num">3,250</div>
+          <div class="mazeed__points-label">نقطة مزيد متاحة</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tier progress -->
+    <div class="tier-card">
+      <div class="tier-card__row">
+        <div class="tier-card__tier">
+          <span class="tier-icon tier-icon--gold">🥇</span>
+          <div>
+            <div class="tier-name">عضوية ذهبية</div>
+            <div class="tier-sub">باقي 750 نقطة للوصول إلى المستوى البلاتيني</div>
+          </div>
+        </div>
+        <div class="tier-card__next">
+          <span class="tier-icon tier-icon--platinum">💠</span>
+          <span>بلاتيني</span>
+        </div>
+      </div>
+      <div class="progress">
+        <div class="progress__bar" style="width:76%"></div>
+      </div>
+    </div>
+
+    <!-- Redeemable items -->
+    <div class="store-grid">
+
+      <article class="store-card store-card--featured">
+        <div class="store-card__icon">📋</div>
+        <h3>تقرير موجز الشامل</h3>
+        <p>احصل على تقرير كامل لتاريخ المركبة (حوادث، ملاك، تشغيل تجاري، فحوصات)</p>
+        <div class="store-card__footer">
+          <span class="price"><span class="gem">💎</span> 800 نقطة</span>
+          <button class="btn btn--primary btn--sm">استبدال</button>
+        </div>
+      </article>
+
+      <article class="store-card">
+        <div class="store-card__icon">🔍</div>
+        <h3>تقرير الفحص السريع</h3>
+        <p>نظرة سريعة على القيود والرهن والحالة المرورية للمركبة</p>
+        <div class="store-card__footer">
+          <span class="price"><span class="gem">💎</span> 350 نقطة</span>
+          <button class="btn btn--primary btn--sm">استبدال</button>
+        </div>
+      </article>
+
+      <article class="store-card">
+        <div class="store-card__icon">🏷️</div>
+        <h3>خصم 25% على الباقات</h3>
+        <p>كوبون خصم على أي باقة تقارير متعددة من موجز للأعمال</p>
+        <div class="store-card__footer">
+          <span class="price"><span class="gem">💎</span> 500 نقطة</span>
+          <button class="btn btn--primary btn--sm">استبدال</button>
+        </div>
+      </article>
+
+      <article class="store-card">
+        <div class="store-card__icon">🔔</div>
+        <h3>تنبيهات متابعة المركبة</h3>
+        <p>اشتراك شهري يرسل تنبيهات عند تغيّر بيانات مركبة معينة</p>
+        <div class="store-card__footer">
+          <span class="price"><span class="gem">💎</span> 600 نقطة</span>
+          <button class="btn btn--primary btn--sm">استبدال</button>
+        </div>
+      </article>
+
+      <article class="store-card">
+        <div class="store-card__icon">🚗</div>
+        <h3>خصم على خدمات الفحص الميداني</h3>
+        <p>خصم لدى مراكز فحص شريكة بالتعاون مع برنامج مزيد</p>
+        <div class="store-card__footer">
+          <span class="price"><span class="gem">💎</span> 1,200 نقطة</span>
+          <button class="btn btn--primary btn--sm">استبدال</button>
+        </div>
+      </article>
+
+      <article class="store-card store-card--locked">
+        <div class="store-card__icon">🛡️</div>
+        <h3>تقرير + ضمان استرجاع</h3>
+        <p>تقرير شامل مع ضمان استرداد القيمة في حال وجود بيانات غير دقيقة</p>
+        <div class="store-card__footer">
+          <span class="price"><span class="gem">💎</span> 2,500 نقطة</span>
+          <button class="btn btn--outline btn--sm" disabled>يتطلب عضوية بلاتينية</button>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- How to earn points -->
+    <div class="earn">
+      <h3>كيف تكسب نقاط مزيد؟</h3>
+      <div class="earn-grid">
+        <div class="earn-item">
+          <span class="earn-item__icon">🛒</span>
+          <div>
+            <div class="earn-item__title">اطلب تقارير من موجز</div>
+            <div class="earn-item__desc">اكسب نقطة مزيد عن كل 1 ريال تنفقه على تقارير المركبات</div>
+          </div>
+        </div>
+        <div class="earn-item">
+          <span class="earn-item__icon">🔗</span>
+          <div>
+            <div class="earn-item__title">اربط حساب مزيد</div>
+            <div class="earn-item__desc">اربط حساب stc pay / مزيد للاستفادة من النقاط فوراً</div>
+          </div>
+        </div>
+        <div class="earn-item">
+          <span class="earn-item__icon">🎁</span>
+          <div>
+            <div class="earn-item__title">شارك أصدقاءك</div>
+            <div class="earn-item__desc">احصل على 200 نقطة عن كل صديق يطلب تقريره الأول</div>
+          </div>
+        </div>
+        <div class="earn-item">
+          <span class="earn-item__icon">⭐</span>
+          <div>
+            <div class="earn-item__title">قيّم تجربتك</div>
+            <div class="earn-item__desc">احصل على نقاط إضافية مقابل تقييم التقرير بعد الاستلام</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="logo">
+      <span class="logo__ar">موجز</span>
+      <span class="logo__en">Mojaz</span>
+    </div>
+    <p>© 2026 موجز. جميع الحقوق محفوظة.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
