@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>متجر مزيد | موجز</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="mazeed-store.css">
+</head>
+<body class="store-body">
+
+<!-- App-like top bar (for in-app WebView) -->
+<header class="store-topbar">
+  <button class="icon-btn" aria-label="رجوع">‹</button>
+  <div class="store-topbar__title">
+    <span class="store-topbar__logo">موجز</span>
+    <span class="store-topbar__sep">×</span>
+    <span class="store-topbar__mazeed">مزيد</span>
+  </div>
+  <div class="store-topbar__points">
+    <span class="gem">💎</span> 3,250
+  </div>
+</header>
+
+<main class="store">
+
+  <!-- Search -->
+  <div class="store__search">
+    <span class="store__search-icon">🔍</span>
+    <input type="text" placeholder="ابحث عن منتج، عطر، عناية، ذهب...">
+  </div>
+
+  <!-- Categories -->
+  <div class="categories">
+    <button class="chip chip--active">الكل</button>
+    <button class="chip">العناية والجمال 💄</button>
+    <button class="chip">العطور 🌸</button>
+    <button class="chip">الذهب والمجوهرات 💍</button>
+    <button class="chip">الإلكترونيات 🎧</button>
+    <button class="chip">المطبخ والمنزل 🍳</button>
+    <button class="chip">الأزياء 👗</button>
+  </div>
+
+  <!-- Promo banner -->
+  <div class="promo">
+    <div class="promo__text">
+      <span class="promo__tag">عرض حصري لعملاء موجز</span>
+      <h2>استبدل نقاطك بمنتجاتك المفضلة</h2>
+      <p>وفّر حتى 30% عند الدفع بنقاط مزيد + موجز</p>
+    </div>
+    <div class="promo__icon">🎁</div>
+  </div>
+
+  <!-- Section: Featured -->
+  <section class="store-section">
+    <div class="store-section__head">
+      <h3>الأكثر طلباً</h3>
+      <a href="#" class="see-all">عرض الكل ‹</a>
+    </div>
+
+    <div class="product-grid">
+
+      <article class="product-card">
+        <div class="product-card__media product-card__media--skincare">
+          <span class="badge badge--discount">خصم 19%</span>
+          <button class="fav-btn">♡</button>
+        </div>
+        <div class="product-card__body">
+          <div class="product-card__title">حماية بشرة بقاع 1.9 - Mixa Ceramide Protect</div>
+          <div class="rating">
+            <span class="stars">★★★★★</span>
+            <span class="rating__count">4.8 (412)</span>
+          </div>
+          <div class="product-card__price">
+            <span class="price-now">39.5 ر.س</span>
+            <span class="price-old">48.7 ر.س</span>
+          </div>
+          <div class="product-card__points"><span class="gem">💎</span> أو 395 نقطة</div>
+          <button class="btn btn--primary btn--block">أضف للسلة</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-card__media product-card__media--gold">
+          <span class="badge badge--gold">ذهب عيار 24</span>
+          <button class="fav-btn">♡</button>
+        </div>
+        <div class="product-card__body">
+          <div class="product-card__title">سبيكة ذهب رابيد جولد عيار 24 - 0.5 جرام</div>
+          <div class="rating">
+            <span class="stars">★★★★★</span>
+            <span class="rating__count">4.9 (1.2K)</span>
+          </div>
+          <div class="product-card__price">
+            <span class="price-now">112,771.44 ر.س</span>
+          </div>
+          <div class="product-card__points"><span class="gem">💎</span> أو 1,127,714 نقطة</div>
+          <button class="btn btn--primary btn--block">أضف للسلة</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-card__media product-card__media--perfume">
+          <span class="badge badge--new">جديد</span>
+          <button class="fav-btn fav-btn--active">♥</button>
+        </div>
+        <div class="product-card__body">
+          <div class="product-card__title">عطر كويك فيكس النسائي الفاخر 100مل</div>
+          <div class="rating">
+            <span class="stars">★★★★☆</span>
+            <span class="rating__count">4.7 (210)</span>
+          </div>
+          <div class="product-card__price">
+            <span class="price-now">189.00 ر.س</span>
+            <span class="price-old">129.00 ر.س</span>
+          </div>
+          <div class="product-card__points"><span class="gem">💎</span> أو 1,890 نقطة</div>
+          <button class="btn btn--primary btn--block">أضف للسلة</button>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Section: Electronics & Home -->
+  <section class="store-section">
+    <div class="store-section__head">
+      <h3>الإلكترونيات والمنزل</h3>
+      <a href="#" class="see-all">عرض الكل ‹</a>
+    </div>
+
+    <div class="product-grid">
+
+      <article class="product-card">
+        <div class="product-card__media product-card__media--electronics">
+          <span class="badge badge--discount">خصم 23%</span>
+          <button class="fav-btn">♡</button>
+        </div>
+        <div class="product-card__body">
+          <div class="product-card__title">سماعة ذكية لاسلكية بإلغاء الضوضاء</div>
+          <div class="rating">
+            <span class="stars">★★★★★</span>
+            <span class="rating__count">4.6 (689)</span>
+          </div>
+          <div class="product-card__price">
+            <span class="price-now">499.00 ر.س</span>
+            <span class="price-old">649.00 ر.س</span>
+          </div>
+          <div class="product-card__points"><span class="gem">💎</span> أو 4,990 نقطة</div>
+          <button class="btn btn--primary btn--block">أضف للسلة</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-card__media product-card__media--pen">
+          <span class="badge badge--discount">خصم 8%</span>
+          <button class="fav-btn">♡</button>
+        </div>
+        <div class="product-card__body">
+          <div class="product-card__title">قلم حبر فاخر بعلبة هدايا أنيقة</div>
+          <div class="rating">
+            <span class="stars">★★★★☆</span>
+            <span class="rating__count">4.5 (98)</span>
+          </div>
+          <div class="product-card__price">
+            <span class="price-now">313.95 ر.س</span>
+            <span class="price-old">340.00 ر.س</span>
+          </div>
+          <div class="product-card__points"><span class="gem">💎</span> أو 3,140 نقطة</div>
+          <button class="btn btn--primary btn--block">أضف للسلة</button>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-card__media product-card__media--coffee">
+          <button class="fav-btn">♡</button>
+        </div>
+        <div class="product-card__body">
+          <div class="product-card__title">مجموعة كبسولات قهوة كابتشينو فاخرة</div>
+          <div class="rating">
+            <span class="stars">★★★★☆</span>
+            <span class="rating__count">4.4 (730)</span>
+          </div>
+          <div class="product-card__price">
+            <span class="price-now">25.19 ر.س</span>
+          </div>
+          <div class="product-card__points"><span class="gem">💎</span> أو 252 نقطة</div>
+          <button class="btn btn--primary btn--block">أضف للسلة</button>
+        </div>
+      </article>
+
+    </div>
+
+    <button class="btn btn--outline btn--block load-more">عرض المزيد من المنتجات</button>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats">
+    <div class="stats__head">
+      <span class="stats__icon">✍️</span>
+      <h3>أرقامنا تتحدث عنا</h3>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-card__icon">👥</div>
+        <div class="stat-card__num">+2M</div>
+        <div class="stat-card__label">مستخدم نشط</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__icon">📦</div>
+        <div class="stat-card__num">+800K</div>
+        <div class="stat-card__label">طلب تم تنفيذه</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__icon">💎</div>
+        <div class="stat-card__num">+10M</div>
+        <div class="stat-card__label">نقطة مكتسبة شهرياً</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__icon">⭐</div>
+        <div class="stat-card__num">96%</div>
+        <div class="stat-card__label">نسبة رضا العملاء</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Sticky cart bar -->
+<div class="cart-bar">
+  <div class="cart-bar__info">
+    <span class="cart-bar__count">0</span> منتج في السلة
+  </div>
+  <button class="btn btn--primary">إتمام الطلب ‹</button>
+</div>
+
+<script src="mazeed-store.js"></script>
+</body>
+</html>

@@ -335,6 +335,12 @@ body {
   color: var(--gray);
   margin-top: 6px;
 }
+.mazeed__link {
+  color: var(--red);
+  font-weight: 700;
+  text-decoration: none;
+}
+.mazeed__link:hover { text-decoration: underline; }
 .mazeed__points {
   display: flex;
   align-items: center;
